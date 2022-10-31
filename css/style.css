@@ -1,9 +1,16 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #7C5E99;
     border-bottom: 10px solid black;
     padding: 10px 20px;
+}
+
+#logo {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #ffffff;
+    text-shadow: 4px 4px #d4a9b07c;
 }
 
 nav {
@@ -33,7 +40,7 @@ a:hover {
     text-decoration: underline;
 }
 
-#button { 
+.button { 
     display: inline-block;
     background-color: #F25A70;
     padding: 18px 20px;
@@ -42,7 +49,27 @@ a:hover {
     text-decoration: none;
 }
 
-#button:hover {
-    background-color: #f66e82d7;
+.button:hover {
+    background-color: #f77f91e4;
+    font-weight: bold;
 }
 
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #F25A70;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Press Start 2P", sans-serif;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    color: white;
+}
+#box {
+    background-color: #3a4b42;
+    width: 630px;
+    height: 184px;
+    box-shadow: 10px 10px 0 black;
+}
