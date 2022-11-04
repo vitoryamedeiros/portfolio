@@ -1,0 +1,15 @@
+.tec-skill {
+    display: flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+.tec-skill .icon {
+    margin-right: 25px;
+}
+
+.tec-skill .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
