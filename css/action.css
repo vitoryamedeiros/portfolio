@@ -1,0 +1,22 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-family: "Fira-Code", Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.action::before {
+    content: "";   
+    background-color:#F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.action:hover { 
+    text-decoration: underline;
+}
