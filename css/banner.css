@@ -5,19 +5,19 @@
     background-repeat:no-repeat ;
     background-size: 100%;
     border-bottom: 10px solid black; 
-    padding-top: 115px;
-    padding-left: 90px;
+    padding-top: 100px;
+    padding-left: 78px;
 
 }
 
 .banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 490px;
+    width: 550px;
 } 
 
 .banner .box {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 
