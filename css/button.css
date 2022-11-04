@@ -1,14 +1,18 @@
 .button { 
     display: inline-block;
-    background-color: #F25A70;
     color: white;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0px black;
-    margin-right: 0;
+    background-color: #F25A70;
     text-decoration: none;
+    padding: 18px 20px;
+    margin-right: 0;
+    border-radius:6%;
+    box-shadow: 5px 5px 0px black;
+
 }
 
 .button:hover {
     background-color: #f77f91e4;
-    font-weight: bold;
+    font-weight: bolder;
+    border-radius: 8%;
+
 }
