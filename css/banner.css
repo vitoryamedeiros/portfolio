@@ -1,6 +1,6 @@
 .banner {
     box-sizing: border-box;
-    background-image: url(../../assets/img/photo.png);
+    background-image: url(../assets/img/photo.png);
     height: 700px;
     background-repeat:no-repeat ;
     background-size: 100%;
@@ -24,4 +24,25 @@
 .banner .navigation {
     display: flex;
     justify-content: space-around;
+}
+
+
+.banner2 {
+    box-sizing: border-box;
+    height: 700px;
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    background-color: #F25A70;
+    border-bottom: 10px solid black; 
+    padding-top: 80px;
+
+}
+
+.banner2 .skills {
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+
 }
