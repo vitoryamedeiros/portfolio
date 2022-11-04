@@ -5,7 +5,7 @@
     background-repeat:no-repeat ;
     background-size: 100%;
     border-bottom: 10px solid black; 
-    padding-top: 100px;
+    padding-top: 82px;
     padding-left: 78px;
 
 }
@@ -17,7 +17,7 @@
 } 
 
 .banner .box {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
 }
 
 
@@ -28,6 +28,8 @@
 
 
 .banner2 {
+    font-family: "Press Start 2P", sans-serif;
+    text-shadow: 4px 3px 0 black;
     box-sizing: border-box;
     height: 700px;
     background-repeat:no-repeat ;
