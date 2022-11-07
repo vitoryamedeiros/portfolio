@@ -3,13 +3,19 @@
     font-family: 'Press Start 2P', sans-serif;
     font-size: 25px;
     color: #ffffff;
+    align-items: center;
 }
 .tec-skill .icon {
     margin-right: 25px;
+    width: 90px;
 }
 
 .tec-skill .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.tec-skill .title {
+    margin-bottom: 16px;
 }
