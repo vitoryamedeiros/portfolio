@@ -8,21 +8,19 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/section.css">
-    <link rel="stylesheet" href="css/box.css">
+    <link rel="stylesheet" href="css/main-header.css">
+    <link rel="stylesheet" href="css/main-banner.css">
+    <link rel="stylesheet" href="css/main-section.css">
+    <link rel="stylesheet" href="css/main-box.css">
     <link rel="stylesheet" href="css/main-title.css">
-    <link rel="stylesheet" href="css/subtitle.css">
-    <link rel="stylesheet" href="css/action.css">
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/main-subtitle.css">
+    <link rel="stylesheet" href="css/main-action.css">
+    <link rel="stylesheet" href="css/main-button.css">
     <link rel="stylesheet" href="css/tec-skill.css">
     <link rel="stylesheet" href="css/wrapper-skill.css">
     <link rel="stylesheet" href="css/bar-progress.css">
     <link rel="stylesheet" href="css/card-project.css">
-
-
-
+    <link rel="stylesheet" href="css/wrapper-card.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,34 +29,34 @@
    
 </head>
 <body>
-    <header class="header">
+    <header class="main-header">
         <h1 id="logo">VM</h1>
 
         <nav class="navigation">
-            <a class= "action"href="#" lang="eng"> Skills</a>
-            <a class= "action"href="#">Projetos</a>
-            <a class= "action"href="#">Sobre</a>
-            <a class= "action"href="#">Contato</a>
-            <a class="button" href="#" lang="eng"> Dowload CV</a>
+            <a class= "main-action"href="#" lang="eng"> Skills</a>
+            <a class= "main-action"href="#">Projetos</a>
+            <a class= "main-action"href="#">Sobre</a>
+            <a class= "main-action"href="#">Contato</a>
+            <a class="main-button" href="#" lang="eng"> Dowload CV</a>
         </nav>
     </header>
 
     
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
+            <div class="main-box">
                 <h1 class="main-title"> Vitórya Medeiros </h1>
-                <h2 class="subtitle">FrontEnd Developer</h2>
+                <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
 
             <div class="navigation">
-                <a class="button" href="#" lang="eng"> Dowload CV</a>
-                <a class="button" href="#"> Contatos</a>
+                <a class="main-button" href="#" lang="eng"> Dowload CV</a>
+                <a class="main-button" href="#"> Contatos</a>
             </div>
         </div>
     </section>
     
-    <section class="section">
+    <section class="main-section">
         <h2 class="main-title">Skills</h2>
 
         <div class="wrapper-skill">
@@ -112,19 +110,28 @@
         </div>
     </section>
 
-    <section class="section">
-        <h2 class="main-title">Projetos</h2>
-        <figure class="card-project">
-            <img class="logo" src="assets/img/logo-firedlabs.png" alt="Logo da FireLabs">
-        </figure>
-        
-        <figure class="card-project -blue">
-            <img class="logo" src="assets/img/logo-collabcode.png" alt="Logo da ColabCode">
-        </figure>
-        
-        <figure class="card-project">
-            <img class="logo" src="assets/img/logo portfolio.png" alt="Logo Portfolio">
-        </figure>
+    <section class="main-section -bgBlack -bdFirst">
+        <h2 class="main-title -second">Projetos</h2>
+        <div class="wrapper-card">
+            
+            <a href="">
+                <figure class="card-project">
+                    <img class="logo" src="assets/img/logo-firedlabs.png" alt="Logo da FireLabs">
+                </figure>
+            </a>
+            
+            <a href="">
+                <figure class="card-project -blue">
+                    <img class="logo" src="assets/img/logo-collabcode.png" alt="Logo da ColabCode">
+                </figure>
+            </a>
+            
+            <a href="https://vitoryamedeiros.github.io/portfolio/">
+                <figure class="card-project">
+                    <img class="logo" src="assets/img/logo portfolio.png" alt="Logo Portfolio">
+                </figure>
+            </a>
+        </div>
     </section>
 </body>
 </html>
