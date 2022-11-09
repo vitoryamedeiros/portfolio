@@ -1,7 +1,12 @@
-body, h1, h2, h3{
+html {
+    max-width: 3000px;
+}
+
+body, h1, h2, h3, figure{
     margin: 0;
 }
 
 body {
     font-family: "Fira-Code", Arial, sans-serif;
 }
+
