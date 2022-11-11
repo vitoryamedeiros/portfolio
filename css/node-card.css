@@ -11,9 +11,9 @@
     height: 0px;
     width: 40px;
     position: absolute;
-    border-top: 2.5px dashed black;
+    border-top: 4.5px dashed rgba(0, 0, 0, 0.818);
     transform: rotate(90deg) translateX(-62%);
-    bottom: 140px;
+    bottom: 145px;
 }
 
 .node-card .title {
@@ -34,8 +34,10 @@
     background-color:#CEB02A;
 }
 
-.node-card.-clean .logo {
+.node-card .logo-clean  {
     padding: 0;
+    border: 5px solid #000;
+
 }
 
 .node-card.-first .logo {
