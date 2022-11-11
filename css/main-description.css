@@ -1,6 +1,8 @@
 .main-description {
     color: rgb(255, 255, 255);
     font-size: 30px;
-    font-weight: 300;
+    font-weight: normal;
     line-height: 1.5;
+    padding-left: 50px;
+    padding-right: 50px;
 }
