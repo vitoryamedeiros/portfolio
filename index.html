@@ -32,7 +32,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">  
+    <link href="https: //fonts.googleapis.com/css2?family= Fira+Code: família= Pressione+Iniciar+2P & display=swap" rel="stylesheet">    
+    <link href="https: //fonts.googleapis.com/css2?family= Fira+Code: wght @300 & display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -40,10 +41,10 @@
         <h1 id="logo">VM</h1>
 
         <nav class="navigation">
-            <a class= "main-action"href="#" lang="eng"> Skills</a>
-            <a class= "main-action"href="#">Projetos</a>
-            <a class= "main-action"href="#">Sobre</a>
-            <a class= "main-action"href="#">Contato</a>
+            <a class= "main-action"href="#skills" lang="eng"> Skills</a>
+            <a class= "main-action"href="#projetos">Meus Projetos</a>
+            <a class= "main-action"href="#sobre">Sobre mim</a>
+            <a class= "main-action"href="#contatos">Fale Comigo!</a>
             <a class="main-button" href="#" lang="eng"> Dowload CV</a>
         </nav>
     </header>
@@ -58,13 +59,13 @@
 
             <div class="navigation">
                 <a class="main-button" href="#" lang="eng"> Dowload CV</a>
-                <a class="main-button" href="#"> Contatos</a>
+                <a class="main-button" href="#">Contatos</a>
             </div>
         </div>
     </section>
     
     <section class="main-section">
-        <h2 class="main-title">Skills</h2>
+        <h2 class="main-title" id="skills">Skills</h2>
 
         <div class="wrapper-skill">
             <article class="tec-skill">
@@ -117,8 +118,8 @@
         </div>
     </section>
 
-    <section class="main-section -bgBlack -bdFirst">
-        <h2 class="main-title -second">Projetos</h2>
+    <section class="main-section -bgBlack -bdFirst" id="projetos">
+        <h2 class="main-title -second">Meus Projetos</h2>
         <div class="wrapper-card">
             
             <a href="">
@@ -142,7 +143,7 @@
     </section>
 
     <section class="main-section -bgPurple -bdBlack">
-        <h2 class="main-title -second">Sobre</h2>
+        <h2 class="main-title -second" id="sobre">Sobre Mim</h2>
 
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Avançar</span></button>
@@ -209,20 +210,22 @@
         
     </section>
 
-<div class="main-form">
-    <form >
-        <label class="main-label" for="name">Nome</label>
-        <input class="main-input" type="text" id="name">
+    <div class="main-form">
+        <form class="form" >
+            <legend class="main-title -second" id="contatos"> Fale Comigo! </legend>
 
-        <label class="main-label" for="email">Email</label>
-        <input class="main-input" type="email" id="email">
+            <label class="main-label" for="name">Nome</label>
+            <input class="main-input" type="text" id="name" required>
 
-        <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input" id="message"></textarea>
+            <label class="main-label" for="email">Email</label>
+            <input class="main-input" type="email" id="email" required>
 
-        <input class="main-input" type="submit" value="Enviar">
-    </form>
-</div>
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textarea" id="message" required></textarea>
+
+            <input class="main-button -full" type="submit" value="Enviar">
+        </form>
+    </div>
 
     <footer class="main-footer">
         <a class="action" href="https://www.linkedin.com/in/graziellevitorya/" target="_blank">

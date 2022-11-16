@@ -1,4 +1,22 @@
 .main-form {
     background: #3a4042;
-    padding: 5px;
+    padding: 40px 30px ;    
+}
+
+.main-form .form {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-form .main-title {
+    margin-bottom: 40px;
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-textarea{
+    margin-bottom: 40px;
 }

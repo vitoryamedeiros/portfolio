@@ -8,12 +8,19 @@
     margin-right: 0;
     border-radius: 3%;
     box-shadow: 5px 5px 0px black;
-
+    cursor: pointer;
 }
 
 .main-button:hover {
     background-color: #f77f91e4;
     font-weight: bolder;
-    border-radius: 6%;
+    border-radius: 4%;
+}
 
+.main-button.-full {
+    width: 100%
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
